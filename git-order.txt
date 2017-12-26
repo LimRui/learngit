@@ -1,0 +1,14 @@
+git命令
+1.添加文件
+git add xxx
+git commit -m "wrote a xxx file"
+
+2.推送文件到远程服务器上
+git remote add origin https://github.com/LimRui/learngit.git //我的服务器地址
+git push origin master
+
+3.修改文件
+(1)查看仓库当前状态
+	git status
+(2)查看修改什么内容
+    git diff xxx(要查看的文件)
