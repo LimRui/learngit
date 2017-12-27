@@ -15,3 +15,23 @@ git push origin master
 	git status
 (2)查看修改什么内容
     git diff xxx(要查看的文件)
+
+5.分支
+(1)创建分支
+git checkout -b dev
+(2)查看分支
+git branch
+(3)切换分支
+git checkout master
+(4)合并dev分支到master上
+git merge dev
+(5)删除分支
+git branch -d dev
+
+
+
+
+
+
+
+
