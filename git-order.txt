@@ -1,13 +1,16 @@
-git命令
-1.添加文件
-git add xxx
+﻿git命令
+1.进入git
+cd xxxx(文件盘)
+git init
+2.添加文件
+git add xxx(文件名全拼)
 git commit -m "wrote a xxx file"
 
-2.推送文件到远程服务器上
+3.推送文件到远程服务器上
 git remote add origin https://github.com/LimRui/learngit.git //我的服务器地址
 git push origin master
 
-3.修改文件
+4.修改文件
 (1)查看仓库当前状态
 	git status
 (2)查看修改什么内容
